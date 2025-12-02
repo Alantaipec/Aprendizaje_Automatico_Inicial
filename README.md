@@ -33,32 +33,4 @@ Aquí encontrarás una estructura organizada para facilitar tu aprendizaje:
 * **`presentaciones/`**: Diapositivas o material complementario de las clases.
 * **`docs/`**: Documentación adicional, guías de instalación o referencias útiles.
 
----
 
-## 🛠️ Herramientas y Requisitos
-
-Para seguir este curso, necesitarás tener instalado:
-
-* **Python 3.x**
-* **Jupyter Notebook** (o JupyterLab)
-* Las bibliotecas de Python esenciales:
-    * `numpy`
-    * `pandas`
-    * `matplotlib`
-    * `seaborn`
-    * `scikit-learn`
-    * `jupyter`
-
-### Configuración del Entorno (Anaconda/Miniconda recomendado)
-
-Se recomienda encarecidamente utilizar un entorno virtual para gestionar las dependencias.
-
-```bash
-# Crear un entorno virtual llamado 'ml_inicial'
-conda create -n ml_inicial python=3.9
-
-# Activar el entorno
-conda activate ml_inicial
-
-# Instalar las librerías necesarias
-pip install numpy pandas matplotlib seaborn scikit-learn jupyter
